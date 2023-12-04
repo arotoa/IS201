@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #64b5f6;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+#introduction {
+    background: #424242;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#planets ol {
+    list-style-type: none;
+}
+
+#planets li {
+    margin-bottom: 20px;
+}
+
+#galaxies {
+    background: #424242;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.tableau-container {
+    margin-bottom: 30px;
+    height: 600px;
+}
+
+.youtube-container {
+    margin-bottom: 30px;
+}
+
+#image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: #64b5f6;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #42a5f5;
+}
