@@ -1,8 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #fff;
-    background-color: #121212;
+    color: #343F3E;
+    background-color: #DCEDFF;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,24 +15,37 @@ main {
 }
 
 h2 {
-    color: #64b5f6;
+    color: #505A5B;
     text-align: center;
 }
 
 p {
     margin-bottom: 20px;
-    color: #ccc;
+    color: #343F3E;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #505A5B;
+}
+
+.spaceTitle {
+    color: #DCEDFF;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 25px;
 }
 
 #introduction {
-    background: #424242;
+    background: #94B0DA;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
 }
 
 #planets ol {
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 
 #planets li {
@@ -40,7 +53,7 @@ p {
 }
 
 #galaxies {
-    background: #424242;
+    background: #94B0DA;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
@@ -63,8 +76,11 @@ p {
 }
 
 nav {
-    background: #333;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a {
@@ -72,14 +88,22 @@ nav a {
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 a {
-    color: #64b5f6;
+    color: #DCEDFF;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #42a5f5;
+    color: #DCEDFF;
+}
+
+footer {
+    background: #505A5B;
+    padding: 20px;
+    text-align: center;
+    color: #DCEDFF;
 }

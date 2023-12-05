@@ -12,14 +12,12 @@
 
 <body>
     <header>
-        <h1>Space Exploration</h1>
+        <h1 class="spaceTitle">Space Exploration</h1>
         <nav>
-            <ul>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#planets">Planets</a></li>
-                <li><a href="#galaxies">Galaxies</a></li>
-                <li><a href="#tableau">Tableau Graph</a></li>
-            </ul>
+            <div><a href="#introduction">Introduction</a></div>
+            <div><a href="#planets">Planets</a></div>
+            <div><a href="#galaxies">Galaxies</a></div>
+            <div><a href="#tableau">Tableau Graph</a></div>
         </nav>
     </header>
 
@@ -27,6 +25,13 @@
         <div id="introduction">
             <h2>Introduction to Space</h2>
             <p>Welcome to the fascinating world of space exploration. This section provides a brief overview of the wonders beyond our planet.</p>
+        </div>
+
+        <div id="youtube">
+            <h2>Let this youtube video ignite your curiosity of space!</h2>
+            <div class="youtube-container">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/ztVV54sPOns" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
 
         <div id="planets">
@@ -63,7 +68,7 @@
         </div>
 
         <div id="tableau">
-            <h2>Interactive Tableau Graph</h2>
+            <h2>Tableau</h2>
             <div class="tableau-container">
                 <div class='tableauPlaceholder' id='viz1701571004288' style='position: relative; width: 100%; height: 100%; overflow: hidden;'>
                     <noscript>
@@ -103,12 +108,6 @@
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
                 </script>
                 
-        </div>
-
-        <div id="youtube">
-            <h2>Watch this YouTube Video</h2>
-            <div class="youtube-container">
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/ztVV54sPOns" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
 
